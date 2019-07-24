@@ -10,8 +10,6 @@ from    . _math import (
     Point, sin, cos, between, pi,
     atan2, midpoint, sqrt, dist )
 
-import re
-
 import attr
 
 @attr.s(cmp=False)

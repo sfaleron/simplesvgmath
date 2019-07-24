@@ -6,7 +6,7 @@ from  __future__ import division
 
 # extra symbols for "chained" importing
 from        math import sqrt, cos, sin, pi, atan2
-from   mathtuple import *
+from   mathtuple import mathtuple
 
 import      attr
 
@@ -30,6 +30,8 @@ class IvyTransform(object):
 
 Point = mathtuple('Point', 2)
 
+def dist(pt1, pt2):
+    return pt1.dist(pt2)
 
 def between(pt1, pt2, pos):
     pt1, pt2 = Point.from_any(pt1, pt2)
