@@ -1,4 +1,12 @@
-Various geometric decorations are provided. Hatch marks for lines, the angular analogue, and labels for lines and angles. A "corner" variant of the arc markings is available for the familiar right-angle signifiers, but generalizes to any angle.
+Various geometric decorations are provided:
+
+- Hatch marks for lines
+- The angular analogue
+
+  + A "corner" variant of the arc markings is available for the familiar
+    right-angle signifiers, but generalizes to any angle.
+
+- Labels for lines and angles.
 
 ----
 
@@ -17,4 +25,8 @@ Several functions from the standard library are passed through: `sqrt`, `sin`, `
 
 ----
 
-SimpleSVG, mathtuple, and attr are dependencies
+`SimpleSVG`_, `mathtuple`_, and `attrs`_ are dependencies
+
+.. _SimpleSVG: https://github.com/sfaleron/SimpleSVG
+.. _mathtuple: https://github.com/sfaleron/mathtuple
+.. _attrs: https://www.attrs.org/
