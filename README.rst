@@ -10,18 +10,19 @@ Various geometric decorations are provided:
 
 ----
 
-A length-2 mathtuple type `Point` is provided, and some geometric functions:
+A length-2 mathtuple type ``Point`` is provided, and some geometric functions:
 
-- `dist(pt1, pt2)`
-- `midpoint(pt1, pt2)`
-- `between(pt1, pt2, pos)`
+- ``dist(pt1, pt2)``
+- ``midpoint(pt1, pt2)``
+- ``between(pt1, pt2, pos)``
 
-  + `pos` specifies a distance from `pt1` towards `pt2` scaled such that zero
-    corresponds to `pt1` and one to `pt2`.
-  + `pos` is not restricted to this range: it can be any real number, but
+  + ``pos`` specifies a distance from ``pt1`` towards ``pt2`` scaled such
+    that zero corresponds to ``pt1`` and one to ``pt2``.
+  + ``pos`` is not restricted to this range: it can be any real number, but
     this is the range "between" the points.
 
-Several functions from the standard library are passed through: `sqrt`, `sin`, `cos`, `atan2`, as well as the constant `pi`.
+Several functions from the standard library are passed through:
+``sqrt``, ``sin``, ``cos``, ``atan2``, as well as the constant ``pi``.
 
 ----
 
