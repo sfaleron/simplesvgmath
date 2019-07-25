@@ -22,7 +22,7 @@ A length-2 mathtuple type ``Point`` is provided, and some geometric functions:
     this is the range "between" the points.
 
 Several bindings from the standard library module ``math`` are passed through:
-``sqrt()``, ``sin()``, ``cos()``, ``atan2()``, as well as the constant ``pi``.
+functions ``sqrt()``, ``sin()``, ``cos()``, ``atan2()``, as well as the constant ``pi``.
 
 ----
 
