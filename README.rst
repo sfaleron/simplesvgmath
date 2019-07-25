@@ -21,7 +21,7 @@ A length-2 mathtuple type ``Point`` is provided, and some geometric functions:
   + ``pos`` is not restricted to this range: it can be any real number, but
     this is the range "between" the points.
 
-Several functions from the standard library are passed through:
+Several bindings from the standard library module ``math`` are passed through:
 ``sqrt()``, ``sin()``, ``cos()``, ``atan2()``, as well as the constant ``pi``.
 
 ----
